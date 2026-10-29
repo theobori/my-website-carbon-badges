@@ -1,0 +1,52 @@
+#wcb.carbonbadge {
+    --b1: #9d0006;
+    --b2: #9d0006;
+    font-size: 11px;
+    text-align: center;
+    color: var(--b1);
+}
+
+#wcb.carbonbadge sub {
+    vertical-align: middle;
+    font-size: .7em;
+}
+
+#wcb #wcb_g,
+#wcb #wcb_a,
+#wcb #wcb_2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+#wcb #wcb_g,
+#wcb #wcb_a {
+    padding: .0em .3em;
+    border: 2px solid var(--b2);
+}
+
+#wcb #wcb_g {
+    border-radius: .0em .0em .0em .0em;
+    background: #f9f5d7;
+    height: 27px;
+    color: #9d0006
+}
+
+#wcb #wcb_a {
+    background: var(--b1);
+    color: #f9f5d7;
+    border-color: var(--b1);
+}
+
+#wcb.wcb-d #wcb_a {
+    color: var(--b1);
+    background: var(--b2);
+    border-color: var(--b2);
+}
+
+#wcb.wcb-d #wcb_2 {
+    color: #f9f5d7;
+}

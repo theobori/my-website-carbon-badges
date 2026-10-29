@@ -1,5 +1,7 @@
 # My fork of website-carbon-badges
 
+[![check_then_build](https://github.com/theobori/my-website-carbon-badges/actions/workflows/check_then_build.yml/badge.svg)](https://github.com/theobori/my-website-carbon-badges/actions/workflows/check_then_build.yml)
+
 [![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
 
 This GitHub repository contains my JavaScript and CSS customizations based on https://gitlab.com/wholegrain/website-carbon-badges.

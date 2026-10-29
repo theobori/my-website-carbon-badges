@@ -3,8 +3,6 @@ const wcID = (selector) => document.getElementById(selector);
 const wURL = encodeURIComponent(window.location.href)
 const wcU = wURL.includes("localhost") ? '{{default_url}}' : wURL
 
-console.log(wcU)
-
 const newRequest = function (render = true) {
     // Run the API request because there is no cached result available
     fetch('https://api.websitecarbon.com/b?url=' + wcU)

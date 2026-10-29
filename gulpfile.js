@@ -15,7 +15,7 @@ function scripts() {
             return '<style>' + style + '</style>';
         }))
         .pipe(replace('{{default_url}}', function(s) {
-            return process.env.DEFAULT_URL || 'https://theobori.cafe';
+            return process.env.DEFAULT_URL || 'https://theobori.cafe/';
         }))
         .pipe(terser())
         .pipe(rename({ suffix: '.min' }))
